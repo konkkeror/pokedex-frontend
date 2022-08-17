@@ -1,0 +1,21 @@
+.pokedex {
+  display: flex;
+}
+
+#masters {
+  flex:1;
+  background-color: rgb(212, 212, 212);
+}
+
+#pokemones {
+  flex: 3;
+  background-color: rgb(245, 244, 244);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
